@@ -41,7 +41,7 @@ if ($xm1l->status=="OK") {
 
 	
 	
-	$json= '{"status":"'. $xml->status. '","formatted_address":"'.$valid_address.'", "zipcode":"'.$zipcode.'"}';
+	$json= '{"status":"'. $xm1l->status. '","formatted_address":"'.$valid_address.'", "zipcode":"'.$zipcode.'"}';
 	
 echo $json;
 } else
