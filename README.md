@@ -1,5 +1,6 @@
 # progtest
-A address verification checking system
+A address verification checking system using Google api
+
 address.sql- Init database
 
 dbaccess.php -Customize for your database and google development key in dbaccess.php 
